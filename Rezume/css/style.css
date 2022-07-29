@@ -1,0 +1,271 @@
+/*/ шрифти загружені в index.html
+// якщо прописуємо @import "fonts";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*----------------*******************--------------*/
+
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+
+}
+
+body {
+
+  font-size: 14px;
+  color: #2F2E2E;
+
+}
+
+/* адаптація до розміру PC */
+@media (max-width: 1087px) {
+    {
+    max-width: 970px;
+  }
+}
+
+/* адаптація до розміру TABLET 2брекпоінт */
+@media (max-width: 991.98px) {
+    {
+    max-width: 750px;
+  }
+}
+
+/* адаптація до розміру MOBILE 3брекпоінт*/
+@media (max-width: 767.98px) {
+    {
+    max-width: none;
+  }
+}
+
+/* адаптація до розміру MOBILE SMALL 4брекпоінт*/
+@media (max-width: 767.98px) {}
+
+/****************************************************/
+.main__container {
+  max-width: 992px;
+  margin: 0px auto;
+  padding: 15px;
+  display: flex;
+
+  /* Old browsers */
+  background-color: #fff200;
+  /* FF3.6-15 */
+  background-image: -moz-linear-gradient(top, #fff200 0%, rgb(63, 47, 143) 50%, rgb(24, 45, 181) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background-image: -webkit-linear-gradient(top, #fff200 0%, rgb(63, 47, 143) 50%, rgb(29, 24, 181) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background-image: linear-gradient(to bottom, #fff200 0%, rgb(63, 47, 143) 50%, rgb(42, 24, 181) 100%);
+}
+
+.content {
+
+  flex: 1 1 67%;
+
+
+  line-height: 1.2;
+  color: #000;
+
+}
+
+.main__name {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 40px;
+  text-shadow: #2F2E2E;
+  color: rgb(64, 0, 255);
+
+  text-shadow: white 1px 1px;
+}
+
+.main__profession {
+  font-weight: 700;
+  text-align: center;
+  margin: 20px 10px;
+  font-size: 20px;
+  text-decoration: underline;
+  color: rgb(64, 0, 255);
+
+  text-shadow: rgb(255, 247, 0) 1px 1px;
+
+}
+
+.main__discripsion {
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.main__osvitas {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin: 20px 10px;
+  text-decoration: underline;
+}
+
+.main__osvitasinfo {}
+
+.main__osvita {
+  font-weight: 700;
+  text-align: center;
+  margin: 20px 10px;
+  text-decoration: underline;
+  font-size: 20px;
+
+
+
+}
+
+.main__osvita_info {}
+
+.me__dani {
+  flex: 1 1 33%;
+  font-weight: 700;
+  line-height: 1.2;
+  color: rgb(234, 255, 10);
+  letter-spacing: 1px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0 10px;
+}
+
+.foto {}
+
+.fotos {
+  border-radius: 14px;
+  max-width: 50%;
+  border: 2px solid #1100fe;
+  box-shadow: #2600ff;
+  margin: 10px 0px 20px 0px;
+  box-shadow: 10px 5px 5px rgb(35, 11, 255);
+}
+
+.contact {
+
+
+
+  text-decoration: underline;
+
+  padding: 20px 0;
+
+}
+
+.sidebar-title {
+  padding-bottom: 10px;
+  font-size: 20px;
+  text-decoration: underline;
+  font-weight: 700;
+
+}
+
+.contatacts-section-type {}
+
+.contatacts-section-link {
+  color: rgb(234, 255, 10);
+  text-decoration: underline;
+  font-size: 16;
+  margin-left: 5px;
+}
+
+.tech-skill-section {}
+
+.skills-list {}
+
+.skills-item {}
+
+.skills-item-text {}
+
+.soft-skill-section {}
